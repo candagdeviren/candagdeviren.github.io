@@ -1,0 +1,21 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #f5f7fa;
+  color: #222;
+  line-height: 1.6;
+}
+
+nav {
+  background: #0b3d5c;
+  padding: 1rem 2rem;
+  display: flex;
+  gap: 1.5rem;
+}
+nav a { color: white; text-decoration: none; }
+nav a:hover, nav a.active { color: #7fd1ff; }
+
+main { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+h1 { margin-bottom: 1rem; }
+footer { text-align: center; padding: 2rem; color: #777; }
