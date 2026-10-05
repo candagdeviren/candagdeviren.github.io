@@ -5,7 +5,6 @@
 Personal web page built with HTML, CSS, OpenLayers and Leaflet, hosted on GitHub Pages.
 
 ## Pages
-- **About** (`index.html`) – [kısa açıklama]
 - **About** (`index.html`) – 
 - **Projects** (`projects.html`) – 
 - **Maps** (`maps.html`) – 
