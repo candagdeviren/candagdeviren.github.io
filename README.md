@@ -6,9 +6,9 @@ Personal web page built with HTML, CSS, OpenLayers and Leaflet, hosted on GitHub
 
 ## Pages
 - **About** (`index.html`) – [kısa açıklama]
-- **Projects** (`projects.html`) – [kısa açıklama, resimli tablo]
-- **Maps** (`maps.html`) – [kısa açıklama, iki harita]
-
+- **About** (`index.html`) – 
+- **Projects** (`projects.html`) – 
+- **Maps** (`maps.html`) – 
 ## Technologies
 HTML, CSS, JavaScript, OpenLayers 10.2.1, Leaflet 1.9.4, OpenStreetMap tiles, GitHub Pages
 
