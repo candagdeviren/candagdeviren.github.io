@@ -4,39 +4,106 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Can Dağdeviren</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Newsreader:opsz,wght@6..72,200..800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <nav>
-    <a href="index.html" class="active">About Me</a>
-    <a href="projects.html">Projects</a>
-    <a href="maps.html">Maps</a>
-  </nav>
+  <header class="site-header">
+    <a href="index.html" class="logo">Can Dağdeviren</a>
+    <nav>
+      <a href="index.html" class="active">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="maps.html">Maps</a>
+    </nav>
+  </header>
+
   <main>
-  <section class="hero">
-<img src="images/me.jpg" alt="Can Dağdeviren" class="profile">
+    <section class="intro">
+  <h1 class="statement">Can Dağdeviren is a geomatics engineering student at Hacettepe
+    University. He works with LiDAR, orthophotos and web maps, and when he is not
+    in front of a screen, he is out on the water sailing.</h1>
+  <!-- buraya ne koyacağına karar verince: <img src="images/..." alt="..." class="intro-photo"> -->
+  <p class="intro-note">Here you will find his GIS and remote sensing work,
+    two web maps, and a little about life on a sailing boat.</p>
+</section>
+
+   <section class="work">
+  <a href="projects.html" class="work-item">
     <div>
-      <h1>Hi, I'm Can</h1>
-      <p>4th-year Geomatics Engineering student at Hacettepe University, Ankara.</p>
+      <p class="label">2026–2027, Graduation project (in progress)</p>
+      <h3>Conjunction Data Message Analysis Portal</h3>
     </div>
-  </section>
+    <img src="images/cdm.jpg" alt="">
+  </a>
+  <a href="projects.html" class="work-item">
+    <div>
+      <p class="label">2026, ELTEMTEK</p>
+      <h3>LiDAR Point Cloud Processing</h3>
+    </div>
+    <img src="images/lidar.jpg" alt="">
+  </a>
+  <a href="projects.html" class="work-item">
+    <div>
+      <p class="label">2026, ELTEMTEK</p>
+      <h3>Orthophoto Production</h3>
+    </div>
+    <img src="images/ortho.jpg" alt="">
+  </a>
+  <a href="projects.html" class="work-item">
+    <div>
+      <p class="label">2026, ELTEMTEK</p>
+      <h3>Transmission Line Violation Analysis</h3>
+    </div>
+    <img src="images/violation.jpg" alt="">
+  </a>
+</section>
 
-  <section>
-    <h2>Background</h2>
-    <p>Between March and August 2026 I worked in the GIS unit at ELTEMTEK,
-       processing LiDAR point clouds, producing orthophotos and analysing
-       violations along energy transmission lines.</p>
-  </section>
+ <section class="sailing">
+  <h2>On the water</h2>
+  <div class="sailing-row">
+    <div class="photo-stack">
+      <img src="images/yelken-3.jpg" alt="Sailing" tabindex="0">
+      <img src="images/yelken-2.jpg" alt="Sailing" tabindex="0">
+      <img src="images/sail-1.jpg" alt="Sailing" tabindex="0">
+    </div>
+    <p>[Write a few sentences about your sailing: where you sail, your club or boat,
+       races you have taken part in.]</p>
+  </div>
+  <div class="waterline" aria-hidden="true">
+    <div class="boat">
+      <svg viewBox="0 0 60 60">
+        <path d="M30 6 L30 44 L12 44 Z" fill="#EAF4F4"/>
+        <path d="M33 12 L33 44 L48 44 Z" fill="#AFDDE5"/>
+        <path d="M8 47 H52 L46 54 H14 Z" fill="#964734"/>
+      </svg>
+    </div>
+  </div>
+</section>
 
-  <section>
-    <h2>Interests</h2>
-    <p>GIS, remote sensing, LiDAR, photogrammetry, GNSS and Web GIS.
-       Outside the classroom, I spend my time sailing.</p>
-  </section>
+    <section class="about">
+      <img src="images/me.jpg" alt="Can Dağdeviren" class="about-photo">
+      <div class="about-text">
+        <div>
+          <h2>Background</h2>
+          <p>Between March and August 2026 I worked in the GIS unit at ELTEMTEK,
+             processing LiDAR point clouds, producing orthophotos and analysing
+             violations along energy transmission lines.</p>
+        </div>
+        <div>
+          <h2>Interests</h2>
+          <p>GIS, remote sensing, LiDAR, photogrammetry, GNSS and Web GIS.</p>
+        </div>
+        <div>
+          <h2>Contact</h2>
+          <p>Email: candagdeviren@hacettepe.edu.tr<br>
+             GitHub: <a href="https://github.com/candagdeviren">github.com/candagdeviren</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
 
-  <section>
-    <h2>Contact</h2>
-    <p>Email: candagdeviren@hacettepe.edu.tr<br>
-       GitHub: <a href="https://github.com/candagdeviren">github.com/candagdeviren</a></p>
-  </section>
-</main> 
+  <footer>© 2026 Can Dağdeviren</footer>
+</body>
+</html>
